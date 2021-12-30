@@ -246,7 +246,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 108, y: 192.5}
+  m_AnchoredPosition: {x: 107, y: 190.3}
   m_SizeDelta: {x: 60.34, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1358419149
@@ -308,6 +308,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3281106821394420228, guid: d489548eb9be1a14c88afcc98e91d3ee, type: 3}
   m_PrefabInstance: {fileID: 3281106822021794175}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1743655841 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6084591183356683415, guid: fe36df41fb906c148ae4687c8e8b676f, type: 3}
+  m_PrefabInstance: {fileID: 6084591184291665837}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89540e0db4b114949aff7f32e8e268bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2067698000
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,6 +431,10 @@ PrefabInstance:
       value: KnifeSpawner
       objectReference: {fileID: 0}
     - target: {fileID: 2222573367649697562, guid: 7cb537ee92e5abf4ca6e82b2926604f5, type: 3}
+      propertyPath: bird
+      value: 
+      objectReference: {fileID: 1743655841}
+    - target: {fileID: 2222573367649697562, guid: 7cb537ee92e5abf4ca6e82b2926604f5, type: 3}
       propertyPath: knife
       value: 
       objectReference: {fileID: 3466360542407916027, guid: 6de7dea4cf5f7134d9347503667b5b51, type: 3}
@@ -433,7 +448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2222573367649697563, guid: 7cb537ee92e5abf4ca6e82b2926604f5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 0.851
       objectReference: {fileID: 0}
     - target: {fileID: 2222573367649697563, guid: 7cb537ee92e5abf4ca6e82b2926604f5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -713,7 +728,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5908764592981231228, guid: 5d20c63af6c177d46831d379ae3953df, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: 0.817
       objectReference: {fileID: 0}
     - target: {fileID: 5908764592981231228, guid: 5d20c63af6c177d46831d379ae3953df, type: 3}
       propertyPath: m_LocalPosition.y
@@ -755,6 +770,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PipeSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 5908764592981231231, guid: 5d20c63af6c177d46831d379ae3953df, type: 3}
+      propertyPath: bird
+      value: 
+      objectReference: {fileID: 1743655841}
     - target: {fileID: 5908764592981231231, guid: 5d20c63af6c177d46831d379ae3953df, type: 3}
       propertyPath: pipe
       value: 
