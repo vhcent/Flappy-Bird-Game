@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Bird : MonoBehaviour
 {
-    private float velocity = 2;
+    public float velocity = 1.5f;
     private Rigidbody2D rigidBody;
+    public Game game;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,5 +20,10 @@ public class Bird : MonoBehaviour
         {
             rigidBody.velocity = Vector2.up * velocity;
         }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision) 
+    {
+        game.GameOver();
     }
 }
