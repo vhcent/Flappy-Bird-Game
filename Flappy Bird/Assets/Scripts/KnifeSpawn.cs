@@ -23,7 +23,7 @@ public class KnifeSpawn : MonoBehaviour
             {
                 GameObject newKnife = Instantiate(knife);
                 newKnife.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
-                Destroy(newKnife, 4);
+                Destroy(newKnife, 3);
                 timer = 0;
             }
             timer += Time.deltaTime;

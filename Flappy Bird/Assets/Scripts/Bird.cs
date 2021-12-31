@@ -41,11 +41,7 @@ public class Bird : MonoBehaviour
                 }
                 break; 
         }
-        // if (Input.GetKeyDown(KeyCode.Space))
-        // {
-        //     gameObject.transform.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-        //     rigidBody.velocity = Vector2.up * velocity;
-        // }
+    
     }
 
     void OnCollisionEnter2D(Collision2D collision)

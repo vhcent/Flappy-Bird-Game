@@ -6,6 +6,5 @@ public class IncrementScore : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision) {
         Score.score ++;
-        Debug.Log("passed pipe");
     }
 }

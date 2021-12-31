@@ -7,11 +7,22 @@ public class Game : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject gameOverCanvas;
+    public GameObject titleScreenCanvas;
+    public Bird bird;
 
     private void Start() {
         {
             gameOverCanvas.SetActive(false);
+            titleScreenCanvas.SetActive(true);
             Time.timeScale = 1;
+        }
+    }
+
+    private void Update() 
+    {
+        if (bird.state == Bird.State.running)
+        {
+            titleScreenCanvas.SetActive(false);
         }
     }
 
@@ -24,6 +35,5 @@ public class Game : MonoBehaviour
     public void Replay()
     {
         SceneManager.LoadScene(0);
-        Debug.Log("Replay Called");
     }
 }
