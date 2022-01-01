@@ -8,7 +8,6 @@ public class PipeMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.tag = "Pipe";
     }
 
     // Update is called once per frame

@@ -773,6 +773,10 @@ PrefabInstance:
       propertyPath: homingBird
       value: 
       objectReference: {fileID: 7646085933197812282, guid: f9b145f34a3abd9468a9f5677806728a, type: 3}
+    - target: {fileID: 5916305160739656445, guid: 0ede499e25f18af4ab49a82802bf3ea0, type: 3}
+      propertyPath: homingBirdTime
+      value: 1.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ede499e25f18af4ab49a82802bf3ea0, type: 3}
 --- !u!1001 &6084591184291665837
@@ -796,7 +800,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6084591183356683419, guid: fe36df41fb906c148ae4687c8e8b676f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.312
       objectReference: {fileID: 0}
     - target: {fileID: 6084591183356683419, guid: fe36df41fb906c148ae4687c8e8b676f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -855,6 +859,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1042407653}
+    - target: {fileID: 6548342422653217442, guid: f86446900dda7b14791b4ee16297ff21, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6548342422653217445, guid: f86446900dda7b14791b4ee16297ff21, type: 3}
       propertyPath: m_Pivot.x
       value: 0

@@ -22,7 +22,7 @@ public class PipeSpawn : MonoBehaviour
             {
             GameObject newPipe = Instantiate(pipe);
             newPipe.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
-            Destroy(newPipe, 3.2f);
+            Destroy(newPipe, 3.5f);
             timer = 0;
             }
             timer += Time.deltaTime;
